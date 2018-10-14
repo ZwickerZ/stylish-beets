@@ -5,20 +5,20 @@ html {
 }
 
 h1, h2 {
-  font-family: PT Sans;
+  font-family: "PT Sans";
   color: #3f1622;
-
 }
 
-h1{
+h1 {
   font-size: 1.5rem;
 }
+
 span {
   font-style: italic;
 }
 
 nav ol {
-  font-family: PT Sans;
+  font-family: "PT Sans";
   list-style-type: none;
   font-size: 1.125rem;
 }
@@ -33,6 +33,7 @@ a:hover {
   color: #3f1622;
   text-decoration: underline;
 }
+
 img {
   height: 100%;
   width: 100%;
@@ -43,9 +44,8 @@ figcaption {
   text-align: center;
 }
 
-p{
+p {
   font-family: "PT Serif", serif;
-
 }
 
 article + p {
@@ -60,7 +60,7 @@ blockquote p {
 }
 
 p:nth-of-type(2) {
-  font-size: 0.8rem;
+  font-size: .8rem;
 }
 
 main ol {
