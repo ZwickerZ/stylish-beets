@@ -1,5 +1,7 @@
 html {
   background-color: #c9b5ab;
+  font-family: "PT Serif", serif;
+  line-height: 1.5;
 }
 
 h1, h2 {
@@ -15,11 +17,9 @@ span {
   font-style: italic;
 }
 
-nav ol{
+nav ol {
   font-family: PT Sans;
   list-style-type: none;
-  line-height: 1.5;
-
 }
 
 a {
@@ -28,6 +28,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  color: #3f1622;
+  text-decoration: underline;
+}
 img {
   height: 100%;
   width: 100%;
@@ -40,7 +44,7 @@ figcaption {
 
 p{
   font-family: "PT Serif", serif;
-  line-height: 1.5;
+
 }
 
 article + p {
@@ -51,6 +55,7 @@ article + p {
 blockquote p {
   font-style: italic;
   font-size: 1.5rem;
+  font-weight: normal;
 }
 
 p:nth-of-type(2) {
@@ -59,4 +64,20 @@ p:nth-of-type(2) {
 
 main ol {
   list-style-type: lower-greek;
+}
+
+p:nth-of-type(4) {
+  font-style: italic;
+}
+
+dt {
+  font-weight: bold;
+}
+
+h2:last-of-type {
+  font-size: 1.5rem;
+}
+
+aside ul {
+  list-style-type: circle;
 }
